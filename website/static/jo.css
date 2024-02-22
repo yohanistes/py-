@@ -1,0 +1,97 @@
+body{
+    background-image:url(joback.jpg);
+    background-size:cover;
+}
+#product{
+    background-size: cover;
+    background-image: url(proback.jpg);
+}
+
+#fillout{
+    background-color: black;
+    background-image: none;
+
+}
+
+.home{
+    margin-top: 200px;
+    margin-bottom: 200px;
+   text-align: center;
+   margin-left: 10px;
+    width: 80%;
+    margin-right: 200px;
+}
+.welcome p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 300%;
+    font-weight: bolder;
+    color: black;
+}
+.motto{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 200%;
+    margin-top: -2%;
+    margin-left: 1%;
+    color: rgb(39, 3, 3);
+
+}
+.but-bg:hover{ background: grey;
+    margin-top: -2%;
+}    
+.row{     
+    margin-top: 1rem;
+    padding: 5%;
+  
+}
+
+.card{
+    overflow: hidden;
+    background-color: transparent;
+    color: rgb(225, 232, 224);
+    margin: 2%;
+
+}
+.card img{
+    width: 300px;
+}
+#fillout{
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 25%;
+    color: aliceblue;
+    transition: color 0.3s ease-in-out;
+    background-color: #00000077;
+    padding: 8px;
+    box-shadow: 0 0 40px 2px rgb(1, 18, 250)
+}
+ .containers{
+    margin-top: 80px;
+    width: 50%;
+    margin-left: 25%;
+    color: aliceblue;
+    transition: color 0.3s ease-in-out;
+    background-color: #00000077;
+    padding: 8px;
+    box-shadow: 0 0 40px 2px rgb(99, 110, 255);
+
+ }
+ .card-title{
+    color: rgb(187, 177, 177);
+ }
+ .title{
+    color: rgb(13, 12, 13);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer{
+        background-color: rgba(20, 14, 105, 0.825);
+        color: #fff;
+        text-align: center;
+        padding: -10%;
+        position:relative;
+        bottom: 0;
+        width: 100%;
+        z-index: -1;
+        
+}
